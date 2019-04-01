@@ -33,6 +33,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
                 android:text="Sign up"
+                android:fontFamily="@font/nexabold"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:visibility="visible"
@@ -60,8 +61,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Enter your own information"
+                android:text="Enter your own Information"
                 android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/nexalight"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -95,6 +98,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginEnd="16dp"
+
                         app:hintTextAppearance="@style/TextLabel"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -105,6 +109,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Name"
+                            android:fontFamily="@font/nexabold"
                             android:inputType="textCapWords" />
                     </android.support.design.widget.TextInputLayout>
 
@@ -126,6 +131,7 @@
                             android:layout_height="wrap_content"
                             android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
                             android:hint="User Id"
+                            android:fontFamily="@font/nexabold"
                             android:inputType="text" />
                     </android.support.design.widget.TextInputLayout>
 
@@ -146,6 +152,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Password"
+                            android:fontFamily="@font/nexabold"
                             android:inputType="textPassword" />
                     </android.support.design.widget.TextInputLayout>
 
@@ -166,6 +173,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Confirm Password"
+                            android:fontFamily="@font/nexabold"
                             android:inputType="textPassword" />
                     </android.support.design.widget.TextInputLayout>
 
@@ -186,6 +194,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
+                        android:fontFamily="@font/nexabold"
                         android:text="Agree with our terms &amp; conditions"
                         app:layout_constraintBottom_toBottomOf="@+id/radioButton"
                         app:layout_constraintStart_toEndOf="@+id/radioButton"
@@ -203,6 +212,7 @@
                 android:layout_marginBottom="8dp"
                 android:background="@drawable/btngradient"
                 android:text="Register"
+                android:fontFamily="@font/nexabold"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/cardview"
@@ -228,6 +238,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
                 android:text="Sign Up With Social"
+                android:fontFamily="@font/nexabold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/appCompatButton"
                 app:layout_constraintStart_toStartOf="@+id/appCompatButton"
@@ -295,6 +306,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:text="FACEBOOK"
+                        android:fontFamily="@font/nexabold"
                         android:textColor="@color/white"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -355,6 +367,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:text="GOOGLE"
+                        android:fontFamily="@font/nexabold"
                         android:textColor="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -390,6 +403,7 @@
                     android:id="@+id/already_account"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/nexabold"
                     android:layout_gravity="center_vertical"
                     android:text="Already have an Account? Log in"
                     android:textColor="@color/black" />
