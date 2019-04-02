@@ -30,10 +30,10 @@
             android:value="@string/google_maps_key" />
 
                <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities.Home"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".activities.Home"
+            android:name=".activities.MainActivity"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
