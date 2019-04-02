@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <include
         android:id="@+id/main_toolbar"
@@ -45,13 +45,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:id="@+id/circular"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="24dp"
-                android:src="@drawable/islamic"
+                android:src="@drawable/loginlogo"
                 android:visibility="visible"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -80,7 +80,8 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
                 app:cardCornerRadius="4dp"
-                app:cardElevation="2dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -181,11 +182,14 @@
                         android:id="@+id/radioButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
+                        android:layout_marginStart="8dp"
                         android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
                         android:layout_marginBottom="16dp"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/textView3"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="@+id/txtinput4"
                         app:layout_constraintTop_toBottomOf="@+id/txtinput4"
                         app:layout_constraintVertical_bias="0.0" />
 
@@ -197,7 +201,8 @@
                         android:fontFamily="@font/nexabold"
                         android:text="Agree with our terms &amp; conditions"
                         app:layout_constraintBottom_toBottomOf="@+id/radioButton"
-                        app:layout_constraintStart_toEndOf="@+id/radioButton"
+                        app:layout_constraintEnd_toEndOf="@+id/txtinput4"
+                        app:layout_constraintStart_toStartOf="@+id/txtinput4"
                         app:layout_constraintTop_toTopOf="@+id/radioButton" />
 
                 </android.support.constraint.ConstraintLayout>
@@ -322,7 +327,7 @@
                 android:layout_height="48dp"
                 android:layout_marginStart="8dp"
                 app:cardCornerRadius="4dp"
-                app:cardElevation="1dp"
+                app:cardElevation="2dp"
                 app:layout_constraintBottom_toBottomOf="@+id/fblinear"
                 app:layout_constraintEnd_toEndOf="@+id/view2"
                 app:layout_constraintStart_toStartOf="@+id/guideline"
@@ -390,7 +395,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="8dp"
-                android:background="#eeeeee"
+                android:background="#F3F3F3"
                 android:gravity="center_horizontal"
                 android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="parent"

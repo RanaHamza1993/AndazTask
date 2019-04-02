@@ -1,4 +1,4 @@
-package com.example.andaztask;
+package com.example.andaztask.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.andaztask.R;
 
 public class MainActivity extends AppCompatActivity {
 
