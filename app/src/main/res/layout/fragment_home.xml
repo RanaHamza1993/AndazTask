@@ -104,7 +104,7 @@
 
                     <TextView
                         android:id="@+id/textView10"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginBottom="8dp"
@@ -118,7 +118,7 @@
 
                     <TextView
                         android:id="@+id/textView11"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="22/4/2019 12:50 PM"
@@ -162,7 +162,7 @@
 
                     <TextView
                         android:id="@+id/textView13"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginBottom="8dp"
@@ -175,7 +175,7 @@
 
                     <TextView
                         android:id="@+id/textView14"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="22/4/2019 12:50 PM"
@@ -264,7 +264,7 @@
 
                     <TextView
                         android:id="@+id/textView18"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginBottom="8dp"
@@ -279,7 +279,7 @@
 
                     <TextView
                         android:id="@+id/textView19"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="22/4/2019 12:50 PM"
@@ -323,11 +323,11 @@
 
                     <TextView
                         android:id="@+id/textView21"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        android:singleLine="false"
                         android:layout_marginBottom="8dp"
+                        android:singleLine="false"
                         android:text="Lorum ipsum dolor sit amet, consectetur"
                         app:layout_constraintBottom_toBottomOf="@+id/textView20"
                         app:layout_constraintEnd_toEndOf="@+id/view4"
@@ -423,7 +423,7 @@
 
                     <TextView
                         android:id="@+id/textView26"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginBottom="8dp"
@@ -436,7 +436,7 @@
 
                     <TextView
                         android:id="@+id/textView27"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="22/4/2019 12:50 PM"
@@ -480,7 +480,7 @@
 
                     <TextView
                         android:id="@+id/textView29"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginBottom="8dp"
@@ -493,7 +493,7 @@
 
                     <TextView
                         android:id="@+id/textView30"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="22/4/2019 12:50 PM"
